@@ -17,6 +17,26 @@ h2 {
     padding: 5px 2px 0px;
 }
 
-img {
-    border-radius: 10px;
+.inline {
+    width: 400px;
+    height: 200px;
+    margin: 10px 30px;
+    border-radius: 20px;
+}
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#pancakes, #cashew, #chickpea {
+    width: 110em;
+    height: 55em;
+    margin: 0px 15px;
+    background-size: cover;
+    text-align:center;
+    border-radius: 20px;
 }
